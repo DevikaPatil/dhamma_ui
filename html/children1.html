@@ -1,0 +1,568 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+<head>
+
+  <meta charset="utf-8">
+	<title>Bootstrap course</title>
+	<meta name="description" content="Web Labs Dev">
+	<meta name="author" content="Victor">
+
+	<!-- Mobile specific meta -->
+	<meta name="Viewport" content="width=device.width,initial-scale=1,maximum-scale=1">
+
+	<!-- Latest complied ad minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+  
+    
+    
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+  <title>children</title>
+  </head>
+  
+  <style>
+.dropdown-submenu {
+    position: relative;
+}
+
+.dropdown-submenu>.dropdown-menu {
+    top: 0;
+    left: 100%;
+    margin-top: -6px;
+    margin-left: -1px;
+    -webkit-border-radius: 0 6px 6px 6px;
+    -moz-border-radius: 0 6px 6px;
+    border-radius: 0 6px 6px 6px;
+}
+
+.dropdown-submenu:hover>.dropdown-menu {
+    display: block;
+}
+
+.dropdown-submenu>a:after {
+    display: block;
+    content: " ";
+    float: right;
+    width: 0;
+    height: 0;
+    border-color: transparent;
+    border-style: solid;
+    border-width: 5px 0 5px 5px;
+    border-left-color: #ccc;
+    margin-top: 5px;
+    margin-right: -10px;
+}
+
+.dropdown-submenu:hover>a:after {
+    border-left-color: #fff;
+}
+
+.dropdown-submenu.pull-left {
+    float: none;
+}
+
+.dropdown-submenu.pull-left>.dropdown-menu {
+    left: -100%;
+    margin-left: 10px;
+    -webkit-border-radius: 6px 0 6px 6px;
+    -moz-border-radius: 6px 0 6px 6px;
+    border-radius: 6px 0 6px 6px;
+}
+.logo-font{
+	font-family: 'Stint Ultra Condensed', cursive;
+}
+
+.no-padding {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.padding-new-student {
+  padding-left: 200px;
+}
+
+.padding-home-content {
+  padding-left: 190px;
+}
+
+.padding-old-student {
+  padding-left: 100px;
+}
+
+.padding-header {
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.padding-header-logo2 {
+    padding-top: 35px;
+    padding-bottom: 4px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+#changed {
+    -webkit-filter : hue-rotate(180deg);
+    filter : hue-rotate(180deg);
+}
+
+#grad {
+  background: red; /* For browsers that do not support gradients */
+  background: -webkit-radial-gradient(red 5%, yellow 15%, green 60%); /* Safari 5.1-6.0 */
+  background: -o-radial-gradient(red 5%, yellow 15%, green 60%); /* For Opera 11.6-12.0 */
+  background: -moz-radial-gradient(red 5%, yellow 15%, green 60%); /* For Firefox 3.6-15 */
+  background: radial-gradient(lightblue 22%,lightyellow,#FDE3A7,orange); /* Standard syntax */
+}
+
+body { 
+    
+  /* Safari and Google Chrome */
+  background: -webkit-radial-gradient(#E4F1FE, #E4F1FE);
+  
+  /* Firefox */
+  background: -moz-radial-gradient(#FDE3A7, #FDE3A7);
+  
+  /* Opera */
+  background: -o-radial-gradient(#FDE3A7, #FDE3A7);
+  
+  /* Internet Explorer */
+  background: -ms-radial-gradient(#FDE3A7, #FDE3A7);
+  
+  /* W3C Standard 
+  background: linear-gradient(90deg,lightyellow,#FDE3A7);*/
+  background: radial-gradient(lightyellow,#FDE3A7);
+  }
+
+
+   /*body { background-color: #CFCFC4 !important; } /* Adding !important forces the browser to overwrite the default style applied by Bootstrap */
+   .myNavbar{margin:0 auto; float:none; position:relative;}
+
+
+
+   /* navbar */
+.navbar-default {
+    background-color: lightyellow;
+    
+}
+
+/* Adjust Menu colors - Normal */
+.navbar .nav > li > a, .navbar .nav > li > a{
+color:          black;
+text-shadow:    none;
+}
+
+@media (min-width: 979px) {
+  ul.nav li.dropdown:hover > ul.dropdown-menu {
+    display: block;
+  }
+}
+
+#panel-footer-style {
+    background-color: lightyellow;
+    border-color: #E7E7E7;
+    text-align: center;
+}
+h2 {text-align: center; color: #D35400}
+   h3 {color:  #D35400}
+   .table{
+     border-style: solid;
+     border-width: 2px;
+     border-color: #D35400;
+     border-bottom-width: 20px;
+     border-bottom-color: #D35400
+   
+    } 
+   
+  </style>
+  
+
+
+<body> 
+
+<div class="container-fluid no-padding">
+    	<div class="row">
+    		<div class="col-xs-12 padding-header" id="grad">
+    			<div class="col-xs-2 col-xs-offset-3 padding-header">
+        			<img src="wheel.gif" alt="logo1" class="img-responsive center-block"/>
+    			</div>
+    			<div class="col-xs-4 col-xs-4 padding-header-logo2">
+        			<img src="Logo4.png" alt="logo2" class="img-responsive pull-left"/>
+   	 			</div>
+    		</div>
+  		</div>
+  		<nav class="navbar navbar-default">
+    		<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+            	<span class="sr-only">Toggle Navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span><font color="white">Menu</font></span>
+        	</button>
+    		<div class="collapse navbar-collapse" id="myNavbar">
+      			<ul class="nav navbar-nav">
+        			<li><a href="index.html">Home</a></li>
+        			<li class="dropdown">
+        				<a class="dropdown-toggle" data-toggle="dropdown" href="about_vipassana.html" target="_parent">About Vipassana<span class="caret"></span></a>
+        						<ul class="dropdown-menu">
+          							<li><a href="about_vipassana.html" target="_self">What is Vipassana</a></li>
+          							<li><a href="https://www.dhamma.org/en/about/art">The Art Of Living</a></li>
+          							<li><a href="https://www.dhamma.org/en/about/art">Code of Discipline</a></li>
+         							<li><a href="https://www.dhamma.org/en/about/goenka">S.N.Goenka</a></li>			
+         							<li><a href="https://www.dhamma.org/en/about/qanda">Questions and Answers</a></li>
+         							<li><a href="https://www.dhamma.org/en/about/qanda">Introductory Videos</a></li>
+         							<li><a href="https://www.dhamma.org/en/about/qanda">Related Websites</a></li>
+         							<li><a href="https://www.dhamma.org/en/about/qanda">Online Book Services</a></li>
+        						</ul>
+      				</li>
+        			<li class="dropdown">
+        				<a class="dropdown-toggle" data-toggle="dropdown" href="#">The Center<span class="caret"></span></a>
+        						<ul class="dropdown-menu">
+         							<li><a href="#">Directions & Travel</a></li>
+         							<li><a href="#">Accommodations</a></li>
+         							<li><a href="#">Background and History</a></li>
+          							<li><a href="center_photo_gallery.html">Center Photo Tour</a></li>
+          							<li><a href="#">Site Map</a></li>
+          							<li><a href="#">Contact</a></li> 
+        						</ul>
+      				</li>
+      				<li class="dropdown">
+        				<a class="dropdown-toggle" data-toggle="dropdown" href="#">Courses<span class="caret"></span></a>
+        						<ul class="dropdown-menu">
+          							<li><a href="#">Course Information</a></li>
+         							<li><a href="#">How To Apply</a></li>
+          							<li><a href="https://www.dhamma.org/en-US/schedules/schkunja">Course Checklist</a></li> 
+          							<li><a href="#">Arrival and Departure</a></li> 
+          							<li><a href="#">What to expect on a Course</a></li> 
+          							<li class="dropdown-submenu"><a href="#">Children's and Teens' Courses</a>
+          								<ul class="dropdown-menu">
+          									<li><a href="#">General Information</a></li> 
+          									<li><a href="#">Parent/Guardian Information</a></li>
+          									<li><a href="#">Code of Conduct</a></li>
+          									<li><a href="#">Sample Schedule</a></li>
+          									<li><a href="#">Photo Gallery</a></li>
+          								</ul>
+          							</li> 
+        						</ul>
+      				</li>
+      				<li class="dropdown">
+        				<a class="dropdown-toggle" data-toggle="dropdown" href="#">Diversity</a>
+      				</li>
+      				<li class="dropdown">
+        				<a class="dropdown-toggle" data-toggle="dropdown" href="#">Serving Opportunity<span class="caret"></span></a>
+        						<ul class="dropdown-menu">
+          							<li><a href="#">Overview</a></li>
+         							<li><a href="#">Code of Conduct</a></li>
+          							<li class="dropdown-submenu"><a href="#">Ways to Serve</a>
+          								<ul class="dropdown-menu">
+          									<li><a href="#">Between Courses</a></li> 
+          									<li><a href="#">Service Periods</a></li>
+          									<li><a href="#">Committees</a></li>
+          									<li><a href="#">Adopt-A-Job</a></li>
+          								</ul>
+          							</li> 
+          							<li class="dropdown-submenu"><a href="#">Long Term Service</a>
+          								<ul class="dropdown-menu">
+          									<li><a href="#">Overview</a></li> 
+          									<li><a href="#">FAQ</a></li>
+          									<li><a href="#">Guidelines</a></li>
+          									<li><a href="#">Applications</a></li>
+          								</ul>
+          							</li> 
+        						</ul>
+      				</li>
+      				<li class="dropdown">
+        				<a class="dropdown-toggle" data-toggle="dropdown" href="#">Old Student<span class="caret"></span></a>
+        						<ul class="dropdown-menu">
+          							<li><a href="#">Message from Goenkaji</a></li>
+         							<li><a href="#">Guidelines for Practicing</a></li>
+         							<li><a href="#">Old Student Courses</a></li>
+          							<li class="dropdown-submenu"><a href="#">Group Sittings</a>
+          								<ul class="dropdown-menu">
+          									<li><a href="#">Daily Virtual Group Sittings (VGS Flyer)</a></li> 
+          									<li><a href="#">Weekly Group Sittings (schedule all)</a></li>
+          								</ul>
+          							</li> 
+          							<li><a href="#">Ask-An-AT Program</a></li>
+        						</ul>
+      				</li>
+      				<li class="dropdown">
+        				<a class="dropdown-toggle" data-toggle="dropdown" href="#">Donations (Danā) and Loans<span class="caret"></span></a>
+        						<ul class="dropdown-menu">
+          							<li><a href="#">Donate Online Now</a></li>
+         							<li><a href="#">More Ways to Donate</a></li>
+         							<li><a href="#">Donation In Your Will</a></li>
+          							<li><a href="#">Old Student Loan Program (Flyer)</a></li>
+          							<li><a href="#">Wish-List (new)</a></li>
+        						</ul>
+      				</li>
+      				<li class="dropdown">
+        				<a class="dropdown-toggle" data-toggle="dropdown" href="#">About the Region<span class="caret"></span></a>
+        						<ul class="dropdown-menu">
+          							<li><a href="#">Trust</a></li>
+         							<li><a href="#">Committees at a Glance</a></li>
+         							<li><a href="#">Center Development</a></li>
+          							<li><a href="#">Photo Gallery</a></li>
+          							<li><a href="#">Events</a></li>
+          							<li><a href="#">Newsletters</a></li>
+        						</ul>
+      				</li>
+      			</ul>
+        	</div>
+		</nav>		
+</div>
+
+  <div class=container> 
+    
+    <h2>Children's Courses</h2>
+        
+        
+<p>Thank you for your interest in our meditation courses for children. These courses are for boys and girl aged 8 to 12, and have been designed specifically for this age group. You will learn Anapana meditation, with guided instructions for periods of up to 30 minutes. Throughout the day, there will also be stories, discussion sessions, snacks, games and art activities.</p>
+<p><span id="more-359"></span></p>
+<p>Please read all of the information carefully. On these pages you will find a <a href="http://www.midatlantic.us.dhamma.org/course-information/child-courses/child-parentguardian-info/">Parent&#8217;s Information Page</a>, a <a href="http://www.midatlantic.us.dhamma.org/course-information/child-courses/child-sample-schedule/">sample schedule</a>, the <a title="Code of Conduct" href="http://www.midatlantic.us.dhamma.org/course-information/child-courses/child-code-of-conduct/">Code of Conduct</a> (which will explain how we all need to behave while at the center), and an <a href="http://www.midatlantic.us.dhamma.org/filebase/applications/ChildApplication.pdf" >application form</a>, which you must print, fill out and return to us.</p>
+<p>Please ask your parent(s) or guardian(s) to complete the <a href="http://www.midatlantic.us.dhamma.org/filebase/applications/ChildParentGuardianPermissionMedForm.pdf" >permission and medical emergency forms</a> and return these with your application. After we receive your completed forms, we will contact you.</p>
+
+   <h2>Parent/Guardian Info</h2>
+<p>
+The children’s course offers young people between the ages 8 and 12 years old an introduction to Anapana meditation, which is a practice of the observation of natural breath to concentrate the mind. They will learn to practice Anapana and begin to take their first steps on the path of Dhamma. The entire path of Dhamma, rediscovered and taught by Gotama the Buddha more than 2500 years ago, is a universal remedy for universal problems and has nothing to do with any organized religion or sectarian tradition. For this reason, it can be practiced freely by all, in any place, at any time. Its practice does not conflict with any race, community or religion and will prove equally beneficial to one and all.
+</p>
+<p>
+Young people who have started practicing Anapana have realized many benefits. Their ability to concentrate becomes enhanced, their memory gets sharper, their ability to comprehend a subject improves and they become calmer. In general, they feel they have a practical tool to use in the face of any type of adversity or challenge.
+</p>
+
+<p>
+During the course, there will be meditation instructions as well as other activities such as games, art, and storytelling. The children will be divided into groups according to their age for many activities. They will be assigned counselors who will personally accompany and assist them throughout the course, providing support and guidance as needed.
+</p>
+<p>
+The intent of the children’s course is serious. It is not appropriate for children who are too young or otherwise unable to follow directions or to participate in organized, self-modulating activities. It is also not appropriate for children who are unable to understand the meaning or purpose of the daily timetable and Code of Conduct. Segregation of the sexes will be maintained at all times in the accommodations as well as in the meditation hall and during much of the course.
+</p>
+<p>
+It is not mandatory that a parent or guardian accompanies your child to the course. Parents or guardians who are students of Goenkaji or his assistant teachers are welcome to stay at the center and participate in work projects. Since parents or guardians will not be participating in the course, they will follow a separate schedule. They will also be accommodated separately from the children. Only those children who feel comfortable staying in separate accommodations from their parents are encouraged to attend. We ask that parents and affiliated adults refrain from communicating with or contacting their children throughout the course.
+</p>
+<p>
+Parents or guardians who have not completed a ten-day course with Goenkaji or his assistant teachers are welcome to stay with their children during registration, but should then leave the center until the course is over. There are numerous hotels, motels and campsites in the area.
+</p>
+<p>
+Before applying for the course, please make sure that both you and your child have read and understood the Code of Conduct and Sample Timetable.
+</p>
+
+
+<h2>Code of Conduct</h2>
+
+<p>
+Learning to practice Anapana meditation is very valuable because it helps you to become a better person. Practicing Anapana meditation will help you to train your mind to become concentrated and calm. This will make your mind strong so that you will be able to avoid doing or saying things that are hurtful or harmful to yourself and to others. This strength of mind will help you to feel happier and more peaceful. Practicing Anapana and learning to concentrate will help you to become the master of your mind.
+</p>
+
+<p>
+To help you succeed in practicing Anapana meditation it is important that you do your best to follow the instructions that you will be given during the course. While you are at the course, it is also important that you agree to follow the Code of Conduct written below. In the same way that a house needs a good foundation to support it, so the practice of Anapana needs a good foundation. This good foundation for Anapana is built by following the Code of Conduct. It will help you to avoid performing actions that are harmful or hurtful to yourself and others.
+</p>
+
+<p>
+During the first meditation session at the course you will be asked to repeat the following five vows or precepts. These are written in bold and underneath each is an explanation. Please read them carefully so that you will understand what you are saying when the time comes:
+</p>
+
+<p>
+<b>I shall abstain from killing.</b>
+</p>
+<p>
+ I promise to try to treat all beings kindly and not kill them or harm them in any way.
+</p>
+<p><b>
+I shall abstain from stealing.</b></p>
+ <p>I promise to take only what is given to me and not take anything which belongs to others without permission.
+</p>
+<p><b>
+I shall abstain from a misconduct life.</b></p>
+<p>
+ I promise to treat other boys and girls as if they were my brothers or sisters or best friends. I promise not to indulge in any sexual activity.
+</p>
+<p><b>
+I shall abstain from speaking lies, harsh words, backbiting, etc. which will harm others.</b></p>
+<p>
+ I promise to speak truthfully, kindly and gently, and not to tell lies or to say hurtful things to anybody or about anybody.
+</p>
+<p><b>
+I shall abstain from taking any intoxicant.</b></p>
+<p>
+ I promise not to take any alcohol, drugs or intoxicants, but to keep my mind clear.
+</p>
+<p>
+At the bottom of your application form you will find a question that asks if you agree to try to follow this Code of Conduct while you are at the one-day meditation course site.
+</p>
+
+<h2>Sample Schedule</h2>
+
+<div class="table-responsive">
+
+<table class="table table-bordered table table-striped  table-condensed">
+<tbody>
+<thead>
+<tr bgcolor="#D35400">
+
+<td><b> Timings</b></td>
+
+<td><b>Daily Activities</b></td>
+
+
+</tr>
+</thead>
+<tr>
+<td>
+9:15 a.m to 9.30 a.m.
+</td>
+
+<td>
+Arrival time, registration, breakfast
+(Please allow enough time to register)
+</td>
+</tr>
+<tr>
+<td>
+9:30am to 10:00am
+</td>
+
+<td>
+Orientation
+</td>
+</tr>
+<tr>
+<td>
+10:00am to 10:30am
+</td>
+
+<td>
+Opening instructions
+</td>
+</tr>
+<tr>
+<td>
+10:30am to 11:10am
+</td>
+
+<td>
+Rest and Snack; Game
+</td>
+</tr>
+<tr>
+<td>
+11:10am to 11:40am
+
+<td>
+Meditation
+</td>
+</tr>
+<tr>
+<td>
+11:40am to 12:00pm
+</td>
+
+<td>
+Checking
+</td>
+</tr>
+<tr>
+<td>
+12:00pm to 12:45pm
+</td>
+
+<td>
+Lunch; Games
+</td>
+</tr>
+<tr>
+<td>
+12:50pm to 1:30pm
+</td>
+
+<td>
+Meditation
+</td>
+</tr>
+<tr>
+<td>
+1:30pm to 2:00pm
+</td>
+
+<td>
+Break; Games
+</td>
+</tr>
+<tr>
+<td>
+2:00pm to 2:30pm
+</td>
+
+<td>
+Meditation
+</td>
+</tr>
+<tr>
+<td>
+2:30pm to 2:50pm
+</td>
+
+<td>
+Checking
+</td>
+</tr>
+<tr>
+<td>
+2:50pm to 3:15pm
+</td>
+
+<td>
+Break & Snack; Activity or Game
+</td>
+</tr>
+<tr>
+<td>
+3:15pm to 3:45pm
+</td>
+
+<td>
+Meditation
+</td>
+</tr>
+<tr>
+<td>
+3:45pm 
+</td>
+
+<td>
+Tea & Cookings; Feedback sheet
+</td>
+</tr>
+<tr>
+<td>
+4:00pm
+</td>
+
+<td>
+Course is over
+</td>
+</tr>
+
+</tbody>
+</table>
+
+
+</div>
+
+</div>
+        
+ </body>
+</html>
+
+
+
+
+
+
+ 
+

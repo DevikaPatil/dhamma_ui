@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Mid-Atlantic Vipassana Meditation Center</title>
+	<meta name="description" content="Web Labs Dev">
+	<meta name="author" content="Victor">
+
+	<!-- Mobile specific meta -->
+	<meta name="Viewport" content="width=device.width,initial-scale=1,maximum-scale=1">
+
+	<!-- Latest complied ad minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+</head>
+<style>
+   .dropdown-submenu {
+    position: relative;
+}
+
+.dropdown-submenu>.dropdown-menu {
+    top: 0;
+    left: 100%;
+    margin-top: -6px;
+    margin-left: -1px;
+    -webkit-border-radius: 0 6px 6px 6px;
+    -moz-border-radius: 0 6px 6px;
+    border-radius: 0 6px 6px 6px;
+}
+
+.dropdown-submenu:hover>.dropdown-menu {
+    display: block;
+}
+
+.dropdown-submenu>a:after {
+    display: block;
+    content: " ";
+    float: right;
+    width: 0;
+    height: 0;
+    border-color: transparent;
+    border-style: solid;
+    border-width: 5px 0 5px 5px;
+    border-left-color: #ccc;
+    margin-top: 5px;
+    margin-right: -10px;
+}
+
+.dropdown-submenu:hover>a:after {
+    border-left-color: #fff;
+}
+
+.dropdown-submenu.pull-left {
+    float: none;
+}
+
+.dropdown-submenu.pull-left>.dropdown-menu {
+    left: -100%;
+    margin-left: 10px;
+    -webkit-border-radius: 6px 0 6px 6px;
+    -moz-border-radius: 6px 0 6px 6px;
+    border-radius: 6px 0 6px 6px;
+}
+.logo-font{
+	font-family: 'Stint Ultra Condensed', cursive;
+}
+
+.no-padding {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.padding-new-student {
+  padding-left: 200px;
+}
+
+.padding-home-content {
+  padding-left: 190px;
+}
+
+.padding-old-student {
+  padding-left: 100px;
+}
+
+.padding-header {
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.padding-header-logo2 {
+    padding-top: 35px;
+    padding-bottom: 4px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+#changed {
+    -webkit-filter : hue-rotate(180deg);
+    filter : hue-rotate(180deg);
+}
+
+#grad {
+  background: red; /* For browsers that do not support gradients */
+  background: -webkit-radial-gradient(red 5%, yellow 15%, green 60%); /* Safari 5.1-6.0 */
+  background: -o-radial-gradient(red 5%, yellow 15%, green 60%); /* For Opera 11.6-12.0 */
+  background: -moz-radial-gradient(red 5%, yellow 15%, green 60%); /* For Firefox 3.6-15 */
+  background: radial-gradient(lightblue 22%,lightyellow,#FDE3A7,orange); /* Standard syntax */
+}
+
+body { 
+    
+  /* Safari and Google Chrome */
+  background: -webkit-radial-gradient(#E4F1FE, #E4F1FE);
+  
+  /* Firefox */
+  background: -moz-radial-gradient(#FDE3A7, #FDE3A7);
+  
+  /* Opera */
+  background: -o-radial-gradient(#FDE3A7, #FDE3A7);
+  
+  /* Internet Explorer */
+  background: -ms-radial-gradient(#FDE3A7, #FDE3A7);
+  
+  /* W3C Standard */
+  background: linear-gradient(90deg,lightyellow,#FDE3A7);
+  background: radial-gradient(lightyellow,#FDE3A7);
+  }
+
+
+   /*body { background-color: #CFCFC4 !important; } /* Adding !important forces the browser to overwrite the default style applied by Bootstrap */
+   .myNavbar{margin:0 auto; float:none; position:relative;}
+
+
+
+   /* navbar */
+.navbar-default {
+    background-color: lightyellow;
+    
+}
+
+/* Adjust Menu colors - Normal */
+.navbar .nav > li > a, .navbar .nav > li > a{
+color:          black;
+text-shadow:    none;
+}
+
+@media (min-width: 979px) {
+  ul.nav li.dropdown:hover > ul.dropdown-menu {
+    display: block;
+  }
+}
+
+#panel-footer-style {
+    background-color: lightyellow;
+    border-color: #E7E7E7;
+    text-align: center;
+}
+   h1 {text-align: center;}
+   h2 {color:  #D35400;}
+</style>
+
+</head>
+
+<body>
+  <div class="container-fluid no-padding">
+    	<div class="row">
+    		<div class="col-xs-12 padding-header" id="grad">
+    			<div class="col-xs-2 col-xs-offset-3 padding-header">
+        			<img src="wheel.gif" alt="logo1" class="img-responsive center-block"/>
+    			</div>
+    			<div class="col-xs-4 col-xs-4 padding-header-logo2">
+        			<img src="Logo4.png" alt="logo2" class="img-responsive pull-left"/>
+   	 			</div>
+    		</div>
+  		</div>
+  		<nav class="navbar navbar-default">
+    		<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+            	<span class="sr-only">Toggle Navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span><font color="white">Menu</font></span>
+        	</button>
+    		<div class="collapse navbar-collapse" id="myNavbar">
+      			<ul class="nav navbar-nav">
+        			<li><a href="index.html">Home</a></li>
+        			<li class="dropdown">
+        				<a class="dropdown-toggle" data-toggle="dropdown" href="about_vipassana.html" target="_parent">About Vipassana<span class="caret"></span></a>
+        						<ul class="dropdown-menu">
+          							<li><a href="about_vipassana.html" target="_self">What is Vipassana</a></li>
+          							<li><a href="https://www.dhamma.org/en/about/art">The Art Of Living</a></li>
+          							<li><a href="https://www.dhamma.org/en/about/art">Code of Discipline</a></li>
+         							<li><a href="https://www.dhamma.org/en/about/goenka">S.N.Goenka</a></li>			
+         							<li><a href="https://www.dhamma.org/en/about/qanda">Questions and Answers</a></li>
+         							<li><a href="https://www.dhamma.org/en/about/qanda">Introductory Videos</a></li>
+         							<li><a href="https://www.dhamma.org/en/about/qanda">Related Websites</a></li>
+         							<li><a href="https://www.dhamma.org/en/about/qanda">Online Book Services</a></li>
+        						</ul>
+      				</li>
+        			<li class="dropdown">
+        				<a class="dropdown-toggle" data-toggle="dropdown" href="#">The Center<span class="caret"></span></a>
+        						<ul class="dropdown-menu">
+         							<li><a href="#">Directions & Travel</a></li>
+         							<li><a href="#">Accommodations</a></li>
+         							<li><a href="#">Background and History</a></li>
+          							<li><a href="center_photo_gallery.html">Center Photo Tour</a></li>
+          							<li><a href="#">Site Map</a></li>
+          							<li><a href="#">Contact</a></li> 
+        						</ul>
+      				</li>
+      				<li class="dropdown">
+        				<a class="dropdown-toggle" data-toggle="dropdown" href="#">Courses<span class="caret"></span></a>
+        						<ul class="dropdown-menu">
+          							<li><a href="#">Course Information</a></li>
+         							<li><a href="#">How To Apply</a></li>
+          							<li><a href="https://www.dhamma.org/en-US/schedules/schkunja">Course Checklist</a></li> 
+          							<li><a href="#">Arrival and Departure</a></li> 
+          							<li><a href="#">What to expect on a Course</a></li> 
+          							<li class="dropdown-submenu"><a href="#">Children's and Teens' Courses</a>
+          								<ul class="dropdown-menu">
+          									<li><a href="#">General Information</a></li> 
+          									<li><a href="#">Parent/Guardian Information</a></li>
+          									<li><a href="#">Code of Conduct</a></li>
+          									<li><a href="#">Sample Schedule</a></li>
+          									<li><a href="#">Photo Gallery</a></li>
+          								</ul>
+          							</li> 
+        						</ul>
+      				</li>
+      				<li class="dropdown">
+        				<a class="dropdown-toggle" data-toggle="dropdown" href="#">Diversity</a>
+      				</li>
+      				<li class="dropdown">
+        				<a class="dropdown-toggle" data-toggle="dropdown" href="#">Serving Opportunity<span class="caret"></span></a>
+        						<ul class="dropdown-menu">
+          							<li><a href="#">Overview</a></li>
+         							<li><a href="#">Code of Conduct</a></li>
+          							<li class="dropdown-submenu"><a href="#">Ways to Serve</a>
+          								<ul class="dropdown-menu">
+          									<li><a href="#">Between Courses</a></li> 
+          									<li><a href="#">Service Periods</a></li>
+          									<li><a href="#">Committees</a></li>
+          									<li><a href="#">Adopt-A-Job</a></li>
+          								</ul>
+          							</li> 
+          							<li class="dropdown-submenu"><a href="#">Long Term Service</a>
+          								<ul class="dropdown-menu">
+          									<li><a href="#">Overview</a></li> 
+          									<li><a href="#">FAQ</a></li>
+          									<li><a href="#">Guidelines</a></li>
+          									<li><a href="#">Applications</a></li>
+          								</ul>
+          							</li> 
+        						</ul>
+      				</li>
+      				<li class="dropdown">
+        				<a class="dropdown-toggle" data-toggle="dropdown" href="#">Old Student<span class="caret"></span></a>
+        						<ul class="dropdown-menu">
+          							<li><a href="#">Message from Goenkaji</a></li>
+         							<li><a href="#">Guidelines for Practicing</a></li>
+         							<li><a href="#">Old Student Courses</a></li>
+          							<li class="dropdown-submenu"><a href="#">Group Sittings</a>
+          								<ul class="dropdown-menu">
+          									<li><a href="#">Daily Virtual Group Sittings (VGS Flyer)</a></li> 
+          									<li><a href="#">Weekly Group Sittings (schedule all)</a></li>
+          								</ul>
+          							</li> 
+          							<li><a href="#">Ask-An-AT Program</a></li>
+        						</ul>
+      				</li>
+      				<li class="dropdown">
+        				<a class="dropdown-toggle" data-toggle="dropdown" href="#">Donations (Danā) and Loans<span class="caret"></span></a>
+        						<ul class="dropdown-menu">
+          							<li><a href="#">Donate Online Now</a></li>
+         							<li><a href="#">More Ways to Donate</a></li>
+         							<li><a href="#">Donation In Your Will</a></li>
+          							<li><a href="#">Old Student Loan Program (Flyer)</a></li>
+          							<li><a href="#">Wish-List (new)</a></li>
+        						</ul>
+      				</li>
+      				<li class="dropdown">
+        				<a class="dropdown-toggle" data-toggle="dropdown" href="#">About the Region<span class="caret"></span></a>
+        						<ul class="dropdown-menu">
+          							<li><a href="#">Trust</a></li>
+         							<li><a href="#">Committees at a Glance</a></li>
+         							<li><a href="#">Center Development</a></li>
+          							<li><a href="#">Photo Gallery</a></li>
+          							<li><a href="#">Events</a></li>
+          							<li><a href="#">Newsletters</a></li>
+        						</ul>
+      				</li>
+      			</ul>
+        	</div>
+		</nav>		
+</div> 
+
+<div class="container">
+
+			
+				<h1 class="entry-title post-title"><font color="#D35400"><h1>Diversity</h1></font></h1>
+			
+					<h2>Cultural Diversity</h2>
+<p>The United States is the third largest country in the word with a population of more than 320 million, according to the U.S. Census Bureau. 
+		Because of this, the United States is one of the most culturally diverse countries in the world. 
+		Nearly every region of the world has influenced American culture, as it is a country of immigrants, most notably the English who colonized the country beginning in the early 1600s. U.S. culture has also been shaped by the cultures of Native Americans, Latin Americans, Africans and Asians.</p>
+<p>The Mid-Atlantic Vipassana Meditation Centre located on the east coast welcomes all. Despite our diverse beginnings and our unique lives, when we come to a Vipassana course we are united by a common cause, a common purpose to solve the mystery of human suffering.</p>
+<h2>Non-sectarian Program</h2>
+<p>Although this teaching comes from Gotama the Buddha, it is presented in a non-sectarian format. The Buddha was not interested in converting people. He had found the Path to the end of suffering and his only interest was to share this with others. It is the same today. The cause of suffering lies within each of us and we only need to look inside to find its solution. This works for anyone regardless of their origins or traditions. And that is what you will learn here.</p>
+<h2>Languages</h2>
+<p>When we count up the native languages of the people on our courses, the number often reaches a dozen. Our sound system can provide simultaneous listening in almost 50 languages. When you first open the course schedule page, you will be asked if you are comfortable speaking English. If not, you will be invited to take our <a href="http://www.midatlantic.us.dhamma.org/index.php/course-info/if-english-is-not-your-first-language/">English Skills Assessment</a>. This test allows you to determine your English language level and lets us provide you with the materials you will need on the course.</p>
+<p>Please take the test and enter your result in the application where we ask &#8220;Anything you wish to add to the above information?&#8221;</p>
+<h2>Gender Diversity</h2>
+<p>People of all sexual orientations and gender identities are welcome to our courses.</p>
+<p>The campuses at all the meditation centers in this tradition are segregated into male and female sides. This extends to the residential accommodations, the walking areas, the dining rooms and the meditation hall. This structure is designed to reduce the tension that derives from the mixing of genders.</p>
+<p>We recognize this doesn�t work for everyone and that sometimes members of the LGBTQ community may not feel comfortable on either side of the compound, or having to identify as male or female. With that in mind, please let us know about your sexual orientation or gender identity beforehand. This will allow us to arrange a space for you where you can feel safe and not distracted while you plumb the depths of your mind. You can let us know about your concerns by writing something on the application where we ask, &#8220;Anything you wish to add to the above information?&#8221; We will contact you and together we will make a plan that works for you.�Your private information shall only be used for accommodation arrangement and be kept confidential.</p>
+<h2>Physical Health Needs</h2>
+<p>Some applicants may have a special requirement due to a health issue, a physical limitation, pregnancy or a dietary restriction please see our <a href="http://www.midatlantic.us.dhamma.org/index.php/course-info/what-to-expect-on-a-course/#CourseMenu">course menu</a>. We are prepared to accept most people with special requests, but we need to know the extent of someone�s requirements before they arrive. Quite often someone may ask for back support or a chair to meditate in. We are happy to provide whatever you need to meditate comfortably. Sometimes people ask for a private space because of personal needs. We do have a limited number of private rooms with en-suite bathrooms. See our <a href="http://www.midatlantic.us.dhamma.org/index.php/the-centre/accommodations-gallery/">Course Accommodations</a> page. If you feel you need privacy for any reason please tell us in the application where we ask, &#8220;Anything you wish to add to the above information?&#8221; We will contact you and work out a plan.</p>
+								
+
+</div>
+				
+
+</body>
+</html>
