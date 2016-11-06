@@ -1,4 +1,4 @@
 
 			$(document).ready(function(){
-        		$("#footer").load("../dhamma_ui/html/footer.html");
+        		$("#footer").load("../html/footer.html");
 			});
