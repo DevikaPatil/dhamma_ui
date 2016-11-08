@@ -1,6 +1,5 @@
-
-			$(document).ready(function(){
-			$("#header").load("../../html/header.html");
-			$("#navbar").load("../..//html/navbar.html");
-        		$("#footer").load("../../html/footer.html");
-			});
+$(document).ready(function(){
+	$("#header").load(ABSOLUTE_URL + '/html/header.html');
+	$("#navbar").load(ABSOLUTE_URL + '/html/navbar.html');
+    $("#footer").load(ABSOLUTE_URL + '/html/footer.html');
+});
