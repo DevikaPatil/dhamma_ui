@@ -31,5 +31,7 @@ body {
   background: radial-gradient(lightyellow,#FDE3A7);
   }
 
-
+.item{
+width: 100%;
+}
 
