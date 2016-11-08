@@ -31,8 +31,7 @@ body {
   background: radial-gradient(lightyellow,#FDE3A7);
   }
 
-.page-title {
-text-align: center;
-color: #D35400;
+.item{
+width: 100%;
 }
 

@@ -1,0 +1,1 @@
+var ABSOLUTE_URL = '/Users/devika_gues1/Documents/dhamma_ui';
