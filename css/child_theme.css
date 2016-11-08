@@ -1,7 +1,7 @@
-<style type="text/css">
-  body { background:#FDE3A7 !important; }
+
+  .body { background-color:#FDE3A7;}
 /* Adding !important forces the browser to overwrite the default style applied by Bootstrap */
-  h2,h1 {text-align: center;color:#D35400; }
+  h2{text-align: center;color:#D35400; }
   h3 {color:#D35400;}
   .table{
      border-style: solid;
@@ -10,4 +10,4 @@
      border-bottom-width: 20px;
      border-bottom-color: #D35400
      }
-</style>
+
