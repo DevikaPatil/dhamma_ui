@@ -1,1 +1,1 @@
-var ABSOLUTE_URL = '/Users/devika_gues1/Documents/dhamma_ui';
+var ABSOLUTE_URL = 'http://localhost/~dhamma1/dhamma_ui';
