@@ -4,3 +4,4 @@ $(document).ready(function() {
 		$('.link-navbar').attr('href',ABSOLUTE_URL + a_href);
 	}); 
 })
+
