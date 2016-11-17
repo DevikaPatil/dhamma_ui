@@ -1,1 +1,1 @@
-var ABSOLUTE_URL = 'http://localhost/~dhamma1/dhamma_ui';
+var ABSOLUTE_URL = 'http://www.midatlantic.us.dhamma.org/ne/dhamma_ui';
