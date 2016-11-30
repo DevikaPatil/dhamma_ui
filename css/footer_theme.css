@@ -1,5 +1,7 @@
 #panel-footer-style {
-    background-color: lightyellow;
+    background: linear-gradient(lightyellow,#BDB76B);
     border-color: #E7E7E7;
     text-align: center;
+    font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+	font-size: 14px;
 }
