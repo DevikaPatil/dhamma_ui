@@ -35,3 +35,13 @@ text-align: center;
 color: #D35400;
 }
 
+.fixed-enclose {
+position:fixed;
+width:100%;
+}
+
+.padding-child {
+padding-top:200px;
+}
+
+

@@ -1,5 +1,9 @@
 .dropdown-submenu {
     position: relative;
+    font-family: Arial, "Helvetica Rounded", Helvetica, sans-serif;
+	font-size: 13px;
+	color: #191970;
+    
 }
 
 .dropdown-submenu>.dropdown-menu {
@@ -50,18 +54,26 @@
 
 /*navbar bg color*/
 .navbar-default {
-    background-color: lightyellow;
+	/*background: lightyellow;  */
+    background: linear-gradient(#BDB76B,lightyellow);
     
 }
 
 /* Adjust Menu colors - Normal */
 .navbar .nav > li > a, .navbar .nav > li > a{
-color:          black;
 text-shadow:    none;
+font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+	font-size: 14px;
+	color: black;
 }
 
 @media (min-width: 979px) {
   ul.nav li.dropdown:hover > ul.dropdown-menu {
     display: block;
   }
+}
+
+.dropdown{
+font-family: "Arial", "Helvetica Rounded", Arial, sans-serif;
+	font-size: 13px;
 }
