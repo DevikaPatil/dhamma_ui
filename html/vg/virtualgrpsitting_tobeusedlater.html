@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+
+  <title>Virtual Group Sitting</title>
+  
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"> 
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css"> 
+  
+  
+  <script src="../../js/absolute_url.js"></script>
+  <script src="../../js/link_url_formation.js"></script>
+  <script src="../../js/include_common.js"></script>
+  
+  <link rel="stylesheet" href="../../css/header_theme.css">
+  <link rel="stylesheet" href="../../css/navbar_theme.css">
+  <link rel="stylesheet" href="../../css/footer_theme.css">
+  <link rel="stylesheet" href="../../css/child_theme.css">
+  
+ </head>
+ <body>
+ 	<div class="container-fluid no-padding">
+ 		<div id="header" class="row"></div>
+ 		<div id="navbar" class="row"></div>
+ 	</div>
+
+    <div class=container>
+
+   <h2>Virtual Daily Group Sitting Participant</h2>
+   <small>If you wish to participate in the Virtual Daily Group Sitting Program then please provide the following information so details about the program can be sent to you.</small>
+
+   <br>
+   <br>
+
+   <p><b>Have you successfully completed a 10-day course with S.N.Goenka or any of his assistant teachers? * </b></p>
+   <small>Select Yes if you are an old student in this tradition. </small>
+
+
+
+      <form action="" role="form">
+
+          <div class="formgroup">
+              <div class="row">
+                  <div class="col-xs-3">
+                       <label for="form-elem" class="checkbox-inline"><input type="checkbox" id="form-elem" value="yes"> Yes </label> 
+                       <label for="form-elem-0" class="checkbox-inline"><input type="checkbox" id="form-elem-0" value="no"> No </label>
+                  </div>
+                 </div>
+              
+          </div>
+          <br>
+
+
+          <div class="formgroup">
+              <div class="row">
+                 <div class="col-xs-3">
+                     <label for="form-elem-1"> First Name *</label>
+                     <input type="text" id="form-elem-1" class="form-control" placeholder="First Name">
+                 </div>
+              </div>
+          </div>
+          <div class="formgroup">
+              <div class="row">
+                 <div class="col-xs-3">
+                     <label for="form-elem-2"> Last Name *</label>
+                     <input type="text" id="form-elem-2" class="form-control" placeholder="Last Name">
+                 </div>
+              </div>
+          </div>
+          <div class="formgroup">
+              <div class="row">
+                 <div class="col-xs-3">
+                     <label for="form-elem-3"> Email *</label>
+                     <input type="text" id="form-elem-3" class="form-control" placeholder="name@domain.com">
+                 </div>
+              </div>
+          </div>
+
+          <div class="formgroup">
+              <div class="row">
+                 <div class="col-xs-3">
+                     <label for="form-elem-4"> Phone *</label>
+                     <input type="text" id="form-elem-4" class="form-control" placeholder="2345678910">
+                 </div>
+               </div>
+                     <p class="help-block">Please provide your phone or mobile number where we can reach you. (Please enter just the area code and the tel number without any space and special characters. (e.g. 3472559226). </p>
+                
+          </div>
+
+
+
+        <div class="formgroup">
+           <div class="row">
+               <div class="col-xs-3">
+                  <label for="form-elem-5" class="control-lablel"> Country *</label>
+                  <br>
+                  <small> Please select country of residence</small>
+                      <select class="custom-select" id="form-elem-5">
+                          <option selected>United States</option>
+                          <option value="1">Canada</option>
+                          <option value="2">Mexico</option>
+                          <option value="3">Republic of Korea</option>
+                          <option value="4">India</option>
+                          <option value="5">Countries in Latin America</option>
+                          <option value="6">Other</option>
+                     </select>
+               </div>
+         </div>
+     </div>
+     
+
+     <br>
+     
+
+      
+      <div class="form-group"> 
+          <div class="row">
+              <div class="col-xs-3">
+                     <label for="form-elem-6" class="control-label">ZipCode *</label>
+                     <input type="text" class="form-control" id="form-elem-6" name="zipcode" placeholder="19406">
+              </div>
+              <p class="help-block">
+          </div>
+            Please provide your 5 digit zipcode of place where you live (e.g. 19406).  </p>
+     </div> 
+
+
+     
+
+     <div class="form-group">
+        <div class="row">
+            <div class="col-xs-3">
+                <label for="form-elem-7" class="control-lablel"> Time Zone*</label>
+                <br>
+                <small> Choose your Time Zone</small>
+                <select class="custom-select" id="form-elem-7">
+                   <option selected>U.S. Eastern Standard Time - EST</option>
+                   <option value="1">U.S. Central Standard Time - CST</option>
+                   <option value="2">U.S. Mountain Standard Time - MST</option>
+                   <option value="3">U.S. Pacific Standard Time - PST</option>
+                   <option value="4">India Standard Time - IST</option>
+                   <option value="5">Other</option>
+                </select>
+            </div>
+        </div>
+     </div>
+          
+
+
+    <div class="form-group">
+     <div class="row">
+        <div class="col-xs-3">
+            <p><b>Language</b></p>
+            <p> In addition to English, which language do you prefer for the group sittings ?
+        
+             <label for="form-elem-8" class="control-lablel"></label>
+             <br>
+             <small> Choose your preferred language</small>
+             <select class="custom-select" id="form-elem-8">
+              <option value="1">Chinese</option>
+              <option value="2">French</option>
+              <option value="3">Hindi</option>
+              <option value="4">Khmer</option>
+              <option value="5">Myanmar (Burmese)</option>
+              <option value="6">Spanish</option>
+              <option value="7">Other</option>
+          </select>
+        </div>
+     </div>
+   </div>
+
+    
+
+   <div class="form-group">
+     <div class="row">
+         <div class="col-xs-3">
+            <label for="form-elem-9" class="control-lablel"></label>
+            <p><b>Preferred Meditation Time ( A.M.)</b></p>
+            <small> Choose your preferred morning meditation time</small>
+            <select class="custom-select" id="form-elem-9">
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+              <option value="6">6</option>
+              <option value="7">7</option>
+              <option value="7">8</option>
+              <option value="7">9</option>
+              <option value="7">10</option>
+              <option value="7">11</option>
+              <option value="7">12</option>
+          </select>
+         </div>
+     </div>
+    </div>
+     
+     
+   <div class="form-group">
+     <div class="row">
+         <div class="col-xs-3">
+            <p><b>Preferred Meditation Time ( P.M.)</b></p>
+            <label for="form-elem-10" class="control-lablel"></label>
+            <small> Choose your preferred evening meditation time</small>
+             <select class="custom-select" id="form-elem-10">
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+              <option value="6">6</option>
+              <option value="7">7</option>
+              <option value="7">8</option>
+              <option value="7">9</option>
+              <option value="7">10</option>
+              <option value="7">11</option>
+              <option value="7">12</option>
+          </select>
+         </div>
+     </div>
+    </div>
+     
+  <div class="form-group">
+     <div class="row">
+         <div class="col-xs-5"> 
+            <button type="submit" class="btn btn-default"> Sign Up</button>
+          </div>
+        </div>
+  </div>
+      </form>
+  </div>
+
+
+<div id="footer"></div>
+</body>
+</html>
+
