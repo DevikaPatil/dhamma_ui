@@ -52,4 +52,33 @@ font-family: Cambria, Georgia, serif;
 	line-height: 23px;
 }	
 
+.img-container img{
+width: 35%;
+}
+.img-footer{
+  /* Safari and Google Chrome */
+  background: -webkit-radial-gradient(#E4F1FE, #E4F1FE);
+  
+  /* Firefox */
+  background: -moz-radial-gradient(#FDE3A7, #FDE3A7);
+  
+  /* Opera */
+  background: -o-radial-gradient(#FDE3A7, #FDE3A7);
+  
+  /* Internet Explorer */
+  background: -ms-radial-gradient(#FDE3A7, #FDE3A7);
+  
+  /* W3C Standard */
+  background: linear-gradient(90deg,lightyellow,#FDE3A7);
+  background: radial-gradient(#f2f2f2,#8c8c8c);
+font-family: Cambria, Georgia, serif;
+  #background: #bfbfbf;
+width: 35%;
+height: 20%;
+margin: auto;
+text-align:center;
+font-size: 18px;
+
+}
+
 
