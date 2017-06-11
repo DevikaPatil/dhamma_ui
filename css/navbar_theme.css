@@ -67,11 +67,11 @@ font-family: Futura, "Trebuchet MS", Arial, sans-serif;
 	color: black;
 }
 
-@media (min-width: 979px) {
+/*@media (min-width: 979px) {
   ul.nav li.dropdown:hover > ul.dropdown-menu {
     display: block;
   }
-}
+}*/
 
 .dropdown{
 font-family: "Arial", "Helvetica Rounded", Arial, sans-serif;
