@@ -1,8 +1,8 @@
-$(document).ready(function() {
-	//$('.img-path').attr('src', ABSOLUTE_URL + '/image/MAVA_East_Regions.gif');
+$(document).ready(function() {	
 	$(document).on('click','.link-navbar',function(){
+		location.reload();
 		var a_href = $(this).attr('href');
-		$('.link-navbar').attr('href',ABSOLUTE_URL + a_href);
+		$('.link-navbar').attr('href',ABSOLUTE_URL + a_href);	
 	}); 
 	
 })
