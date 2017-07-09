@@ -23,11 +23,12 @@ h2{text-align: center;color:#D35400; }
 h3{color:#D35400;}
   
 .table{
-     border-style: solid;
+     border-style: thick solid;
      border-width: 2px;
-     border-color: #D35400;
-     border-bottom-width: 20px;
-     border-bottom-color: #D35400
+     border-color: #d35400;
+     border-top-color: #d35400;
+     border-bottom-color: #d35400;
+     border-collapse: collapse !important;
      }
      
 .page-title {
