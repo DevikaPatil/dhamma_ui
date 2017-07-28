@@ -31,6 +31,12 @@ h3{color:#D35400;}
      border-collapse: collapse !important;
      }
      
+     .cell-format{
+     width:150px;
+     text-align: center;
+     height:50px;
+     }
+     
 .page-title {
 text-align: center;
 color: #D35400;
