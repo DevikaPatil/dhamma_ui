@@ -1,4 +1,4 @@
-AuthUserFile /home/midatlantic_us_owner/midatlantic.us.dhamma.org/os/.htpasswd
+AuthUserFile /home/midatlantic_us_owner/delaware.dhamma.org/os/.htpasswd
 AuthName "Old Student Pages"
 AuthTYpe Basic
 require user oldstudent trustee dhammaworker
