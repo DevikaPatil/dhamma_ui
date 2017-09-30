@@ -45,11 +45,13 @@ color: #D35400;
 .fixed-enclose {
 position:fixed;
 width:100%;
+z-index:99;
 }
 
 .padding-child {
 padding-top:175px;
 font-size: 16px;
+z-index:1;
 }
 
 .center-photo-tour{
