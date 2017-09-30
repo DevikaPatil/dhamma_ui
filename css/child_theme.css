@@ -21,6 +21,8 @@ body {
 h2{text-align: center;color:#D35400; }
   
 h3{color:#D35400;}
+
+.renovation_video{ background-color: red; height: 1px; border: 0; }
   
 .table{
      border-style: thick solid;
@@ -57,6 +59,10 @@ z-index:1;
 .center-photo-tour{
 	margin: 0 auto;
 	margin-bottom: 20px;
+}
+
+.bldg2_renovation{
+padding-left:100px;
 }
 
 .committee-at-glance{
