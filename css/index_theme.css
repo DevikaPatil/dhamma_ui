@@ -81,6 +81,10 @@ margin: auto;
 text-align:center;
 font-size: 18px;
 
+.reduce-space{
+line-height: 0.1;
+}
+
 }
 
 
