@@ -37,6 +37,7 @@ body {
   /* W3C Standard */
   background: linear-gradient(90deg,lightyellow,#FDE3A7);
   background: radial-gradient(lightyellow,#FDE3A7);
+  
   }
 
 .item{
@@ -50,6 +51,7 @@ font-family: Cambria, Georgia, serif;
 	font-variant: normal;
 	font-weight: 400;
 	line-height: 23px;
+	padding-left: 15px;
 }	
 
 .img-container img{
