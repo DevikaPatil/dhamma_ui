@@ -55,6 +55,11 @@
 position:relative;
 }
 
+.align-items
+{
+margin:0 auto;
+}
+
 /*navbar bg color*/
 .navbar-default {
 	/*background: lightyellow;  */
